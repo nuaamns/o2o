@@ -1,0 +1,42 @@
+# Ignore build directories except for those checked in
+build/
+!**/src/**/build/
+!/hrcp/orbis-hap/hap/build/
+
+# Gradle related
+/.gradle/
+/buildSrc/.gradle/
+
+# Intellij related
+/.idea/
+/buildSrc/.idea/
+out/
+!**/src/**/out/
+/.shelf/
+*.ipr
+*.iml
+*.iws
+
+# Eclipse related
+.classpath
+.project
+.settings/
+bin/
+## exclude bin directories except for those checked in
+!**/src/**/bin/
+!/agility-msi/wix/bin/
+!/agility-netboot/launcher/wix/bin/
+!/arr/dcm4chee-arr-cdi-rest/bin/
+!/cdp/cdp-integration/server-setup/bin/
+!/hap-device/com.agfa.hap.device.extpkg/sdk/**/bin/
+!/image-area/listtext/com.agfa.pacs.data.xds.consumer/lib/bin/
+!/image-area/shared/com.agfa.pacs.data.hl7/lib/bin/
+!/solution-cdp-tests/jai/bin/
+!/xero/bin/
+
+#Visual Studio Code related
+/.vscode/
+*.code-workspace
+
+target/
+!**/src/**/target/
